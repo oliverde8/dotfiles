@@ -56,5 +56,10 @@ git clone https://github.com/oliverde8/dotfiles ode8DotFiles
 ```
 ln -s /home/oliver/ode8DotFiles/.config/i3/ .config/i3
 ln -s /home/oliver/ode8DotFiles/.screenlayout .screenlayout
- 
+
+- Finally link the proper config file
+
+```
+ln -s /home/oliver/ode8DotFiles/.config/i3/config.home /home/oliver/ode8DotFiles/.config/i3/config
+```
 
