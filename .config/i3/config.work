@@ -140,6 +140,17 @@ bindsym $mod+underscore workspace $workspace8
 bindsym $mod+ccedilla workspace $workspace9
 bindsym $mod+agrave workspace $workspace0
 
+bindsym $mod+1 workspace $workspace1 
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+bindsym $mod+7 workspace $workspace7
+bindsym $mod+8 workspace $workspace8
+bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace0
+
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
 bindsym $mod+Shift+eacute move container to workspace $workspace2
@@ -220,6 +231,21 @@ bindsym $mod+w mode $oliverDisplayMode
 mode $oliverDisplayMode {
 	bindsym 1 exec $oliverOneScreenSetup mode default
 	bindsym 2 exec $oliverTwoScreenSetup mode default
+
+        # back to normal: Enter or Escape
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# Allow switching keyboard configurations
+set $oliverKeyboardMode "Set keyboard layout [1]CH [2]FR"
+bindsym $mod+k mode $oliverKeyboardMode
+mode $oliverKeyboardMode {
+	bindsym 1 exec --no-startup-id ~/.config/i3/scripts/i3KeyboardSwitch.sh ch, mode default
+	bindsym ampersand exec --no-startup-id ~/.config/i3/scripts/i3KeyboardSwitch.sh ch, mode default
+
+	bindsym 2 exec --no-startup-id ~/.config/i3/scripts/i3KeyboardSwitch.sh fr, mode default
+	bindsym eacute exec --no-startup-id ~/.config/i3/scripts/i3KeyboardSwitch.sh fr, mode default
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
