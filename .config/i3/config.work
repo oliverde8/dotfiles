@@ -15,6 +15,7 @@
 set $oliverMainScreen DP-3
 set $oliverSecondScreen eDP-1
 
+set $oliverTwoScreenRSetup "~/.screenlayout/works-2r-screens.sh"
 set $oliverTwoScreenSetup "~/.screenlayout/works-2-screens.sh"
 set $oliverOneScreenSetup "~/.screenlayout/works-1-screens.sh"
 
@@ -71,32 +72,20 @@ bindsym $mod+Shift+A kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi --modi drun -show drun -lines 3 -eh 2 -width 100 -padding 800 -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd"
 
-
-
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-#bindsym $mod+j focus left
-#bindsym $mod+k focus down
-#bindsym $mod+l focus up
-#bindsym $mod+m focus right
-
-# alternatively, you can use the cursor keys:
+# you can use the cursor keys:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+M move right
-
-# alternatively, you can use the cursor keys:
+# you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -208,12 +197,12 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # Start i3bar to display a workspace bar 
 #
 bar {
-	output $oliverMainScreen
+	output $oliverSecondScreen
         status_command i3status --config ~/.config/i3/i3status-main.conf
 }
 
 bar {
-	output $oliverSecondScreen
+	output $oliverMainScreen
         status_command i3status --config ~/.config/i3/i3status-small.conf
 }
 
@@ -231,6 +220,7 @@ bindsym $mod+w mode $oliverDisplayMode
 mode $oliverDisplayMode {
 	bindsym 1 exec $oliverOneScreenSetup mode default
 	bindsym 2 exec $oliverTwoScreenSetup mode default
+        bindsym 3 exec $oliverTwoScreenRSetup mode default
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
@@ -251,6 +241,20 @@ mode $oliverKeyboardMode {
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
+
+# Change volume
+set $oliverde8VolumeMode "Volume (p) increase, (l) decrease, (m) toggle mute"
+bindsym $mod+Shift+v mode $oliverde8VolumeMode
+mode $oliverde8VolumeMode {
+    bindsym p exec --no-startup-id amixer -D pulse sset Master 5%+
+    bindsym l exec --no-startup-id amixer -D pulse sset Master 5%-
+    bindsym m exec --no-startup-id amixer -D pulse sset Master toggle
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
 
 # Restart and so on
 set $oliverSystemMode "System (l) lock, (e) logout, (Shift+r) reboot, (Shift+s) shutdown"
@@ -299,6 +303,7 @@ workspace $workspace0 output $oliverSecondScreen
 # Startup applications
 ########################################################
 exec_always feh --bg-scale ~/.config/i3/wallpaper
+exec_always --no-startup-id nm-applet
 exec_always compton -f
 
 exec Skype
