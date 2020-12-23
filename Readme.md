@@ -68,11 +68,16 @@ ln -s /home/oliver/ode8DotFiles/.config/i3/ .config/i3
 ln -s /home/oliver/ode8DotFiles/.screenlayout .screenlayout
 ```
 
-- Finally link the proper config file
+- Finally link the proper config file for the screen setup
 
 ```
-ln -s /home/oliver/ode8DotFiles/.config/i3/config.home /home/oliver/ode8DotFiles/.config/i3/config
+ln -s /home/oliver/ode8DotFiles/.config/i3/config.d/screen-{config name}.conf /home/oliver/ode8DotFiles/.config/i3/config.d/screen.conf
 ```
+
+## Usage
+
+**SUP + W** : Will list available screen configurations. 
+**SUP + K** Will list available keyboard configurations.
 
 
 ## Other Software & Configuration
@@ -108,3 +113,7 @@ chmod 400 .ssh/id_rsa
 ```
 ln -s ~/Nextcloud/Documents/ Documents/Cloud
 ```
+
+# TODO
+
+- Screenshot utility is broken on Ubuntu 20.04, and it was never complete. 
