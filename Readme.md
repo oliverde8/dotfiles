@@ -77,15 +77,17 @@ ln -s /home/oliver/ode8DotFiles/.config/i3/config.home /home/oliver/ode8DotFiles
 
 ## Other Software & Configuration
 
-### Download & Install
+### Chrome
+
+Reminder to myself, teams does not work with chromium; so need to install chrome. Download chrome dep package and
 
 ```
-snap install chrome --classic
+sudo apt install google-chrome-stable_current_amd64.deb
 ```
 
 ### NextCloud
 
-**NextCloud** will allow us to get all our more private configs
+**NextCloud** will allow us to get all our more private configs.
 
 ```
 sudo apt install nextcloud-desktop
