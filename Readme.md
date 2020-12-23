@@ -43,6 +43,14 @@ sudo apt-get install compton
 sudo apt-get install rofi
 ```
 
+## Install clipboard for rofi
+
+```
+sudo wget https://github.com/erebe/greenclip/releases/download/3.3/greenclip
+sudo mv greenclip /usr/bin/greenclip
+sudo chmod 777 /usr/bin/greenclip
+```
+
 ## Install configs
 
 - Clone sources
