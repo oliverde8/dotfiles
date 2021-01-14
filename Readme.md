@@ -114,6 +114,25 @@ chmod 400 .ssh/id_rsa
 ln -s ~/Nextcloud/Documents/ Documents/Cloud
 ```
 
+### Boostnote
+
+Download dep package
+
+```
+sudo apt install ./boost-note-linux.deb
+```
+
+Link for notes to be stored in nextcloud.
+
+```
+ln -s ~/Nextcloud/boostnote/ .config/Boost\ Note/default-storage
+```
+
+### Others
+
+```
+sudo apt-get install unzip
+
 # TODO
 
 - Screenshot utility is broken on Ubuntu 20.04, and it was never complete. 
