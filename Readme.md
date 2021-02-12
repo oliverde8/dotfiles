@@ -53,6 +53,12 @@ sudo mv greenclip /usr/bin/greenclip
 sudo chmod 777 /usr/bin/greenclip
 ```
 
+#### Install screen shot utility
+
+```
+sudo apt-get install flameshot
+```
+
 #### Install configs
 
 - Clone sources
@@ -81,6 +87,11 @@ ln -s /home/oliver/ode8DotFiles/.config/i3/config.d/screen-{config name}.conf /h
 
 
 ## Other Software & Configuration
+
+
+```
+sudo snap install sublime-text --classic
+```
 
 ### Chrome
 
@@ -116,4 +127,5 @@ ln -s ~/Nextcloud/Documents/ Documents/Cloud
 
 # TODO
 
-- Screenshot utility is broken on Ubuntu 20.04, and it was never complete. 
+- Fix chrome window not opening on first desktop
+- 
