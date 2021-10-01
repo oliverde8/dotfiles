@@ -23,10 +23,11 @@ mkdir ~/.fonts
 mv *.ttf ~/.fonts/
 ```
 
-#### Install feh for walpaper
+#### Install feh for walpaper & imagick for lock screen
 
 ```
 sudo apt-get install feh
+sudo apt-get install imagemagick
 ```
 
 #### Install arc-theme
