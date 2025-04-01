@@ -1,0 +1,56 @@
+🧹 broom                                                                Miscellaneous Symbols and Pictographs
+💡 electric light bulb                                        	 Miscellaneous Symbols and Pictographs
+📖 open book doc                                                   	 Miscellaneous Symbols and Pictographs
+🔧 wrench fix                                                    	 Miscellaneous Symbols and Pictographs
+🔨 hammer fix                                                     	 Miscellaneous Symbols and Pictographs
+🌟 glowing star feature                                              	 Miscellaneous Symbols and Pictographs
+💫 glowing star feature                                              	 Miscellaneous Symbols and Pictographs
+💣 bomb                                                       	 Miscellaneous Symbols and Pictographs
+💥 collision symbol                                           	 Miscellaneous Symbols and Pictographs
+🚨 police cars revolving light alert                                	 Transport and Map Symbols
+🚩 triangular flag on post alert                                    	 Transport and Map Symbols
+⚠ warning sign                                               	 	 Miscellaneous Symbols
+💤 sleeping symbol                                            	 Miscellaneous Symbols and Pictographs
+💢 anger symbol                                               	 Miscellaneous Symbols and Pictographs
+💯 hundred points symbol                                      	 Miscellaneous Symbols and Pictographs
+🌈 rainbow                                                    	 Miscellaneous Symbols and Pictographs
+🌞 sun with face                                              	 Miscellaneous Symbols and Pictographs
+🔴 large red circle                                           	 Miscellaneous Symbols and Pictographs
+🔵 large blue circle                                          	 Miscellaneous Symbols and Pictographs
+🎵 musical note symfony                                              	 Miscellaneous Symbols and Pictographs
+💄 lipstick front                                                   	 Miscellaneous Symbols and Pictographs
+🎨 pain front                                                       	 Miscellaneous Symbols and Pictographs
+💲 heavy dollar sign money                                          	 Miscellaneous Symbols and Pictographs
+💵 money dollar                                           	 	 Miscellaneous Symbols and Pictographs
+💰 money tons dollar alot rich                            	 	 Miscellaneous Symbols and Pictographs
+🛒 cart money checkout shop                          	 	 	 Miscellaneous Symbols and Pictographs
+🛍️ cart money checkout shop                          	 	 	 Miscellaneous Symbols and Pictographs
+🧪 Lab experiment test tube             				 Miscellaneous Symbols and Pictographs
+🚀 Rocket deploy delivery fly fasy					 Miscellaneous Symbols and Pictographs
+⏰ Alarm clock timer 							 Miscellaneous Symbols and Pictographs
+☔ Rain umbrella							 Miscellaneous Symbols and Pictographs
+⚡ voltage electricity                                                 Miscellaneous Symbols and Pictographs
+🚚 truck delivery                                                      Miscellaneous Symbols and Pictographs
+🍀 chance leaf clover                                                  Miscellaneous Symbols and Pictographs
+📤 outbox								Miscellaneous Symbols and Pictographs
+📥 inbox								Miscellaneous Symbols and Pictographs
+📦 package box delibery						Miscellaneous Symbols and Pictographs
+🍰 Cake 								Miscellaneous Symbols and Pictographs
+🍦 IceCream								Miscellaneous Symbols and Pictographs
+📱 smart phone mobile app						Miscellaneous Symbols and Pictographs
+🚀 space rocket incredible awesome					Miscellaneous Symbols and Pictographs
+🔐 lock key security 							Miscellaneous Symbols and Pictographs
+🔑 lock key security 							Miscellaneous Symbols and Pictographs
+🔒 lock key security 							Miscellaneous Symbols and Pictographs
+🔓 lock key security 							Miscellaneous Symbols and Pictographs
+🔍 magnifying loupe zoom search					Miscellaneous Symbols and Pictographs
+🔎 magnifying loupe zoom search					Miscellaneous Symbols and Pictographs
+🔊 speaker annoucement loud						Miscellaneous Symbols and Pictographs
+🔋battery charged							Miscellaneous Symbols and Pictographs
+👷 CI Construction worker						Miscellaneous Symbols and Pictographs
+🚧 Construction wip Sign 						Miscellaneous Symbols and Pictographs
+💳 Credit card payment 						Miscellaneous Symbols and Pictographs
+⛵ sail boat ship 							Miscellaneous Symbols and Pictographs
+🚣 row boat 								Miscellaneous Symbols and Pictographs
+🚤 speed boat 								Miscellaneous Symbols and Pictographs
+🚢 ship cruise boat 							Miscellaneous Symbols and Pictographs

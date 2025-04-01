@@ -4,6 +4,11 @@
 
 ### Install dependencies
 
+```sh
+sudo apt-get install i3
+sudo apt-get install zsh
+```
+
 #### Install arandr to manage screen & their positions
 
 ```sh
